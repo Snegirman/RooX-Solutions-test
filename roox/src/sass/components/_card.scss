@@ -1,0 +1,32 @@
+.card {
+    width: 100%;
+    background-color: $color-card-bg;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+    @include font;
+    font-size: 14px;
+
+    &__info-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        margin-right: 0;
+        a {
+            margin: 0 0 0 auto;
+        }
+    }
+
+    &__info-name {
+        color: $color-card-font;
+    }
+
+    &__info-result {
+        margin-left: 10px;
+    }
+
+    a {
+        float: right;
+    }
+}

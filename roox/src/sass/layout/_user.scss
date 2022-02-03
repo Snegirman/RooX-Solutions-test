@@ -1,0 +1,75 @@
+.user {
+    @include font;
+    
+}
+
+.user__header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 15px 40px 0 40px;
+    @include font;
+        font: {
+            size: 14px;
+            weight: 700;
+        }
+
+    .user__header-name {
+        line-height: 150%;
+    }
+
+    button {
+        background-color: $color-aside-button;
+
+        &:hover {
+            border: 1px solid black;
+            margin-top: -1px;
+            margin-bottom: -1px;
+        }
+    }
+}
+
+.user__submit-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 40px 0 40px;
+
+    button {
+        background-color: #52CF4F;
+        
+        &:hover {
+            border: 1px solid black;
+            margin-top: -1px;
+            margin-bottom: -1px;
+        }
+    }
+}
+
+.user__data {
+    margin: 15px 40px 0 40px;
+    padding: 20px 15px;
+    border: 1px solid #F3F3F3;
+}
+
+.user__data {
+        &-container:nth-child(n + 2){
+        margin-top: 10px;
+    }
+
+    .required {
+        border: 1px solid #D91313;
+    }
+
+    textarea {
+        margin-top: 10px;
+        resize: none;
+        border: 1px solid #D8D8D8;
+        border-radius: 5px;
+        width: 100%;
+        min-height: 80px;
+        &:focus {
+            outline: none;
+        }
+    }
+}

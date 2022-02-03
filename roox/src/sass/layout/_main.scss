@@ -1,0 +1,48 @@
+.main {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    &__aside {
+        min-height: 100vh;
+        grid-area: 1 / 1 / 6 / 2; 
+        background-color: $color-aside;
+    }
+
+    &__list {
+        grid-area: 1 / 2 / 6 / 6;
+        background-color: #FFFFFF;
+    }
+
+    &__list-container {
+        margin: 20px 65px 0 20px;
+    }
+
+    &__cards-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
+h1 {
+    @include font;
+    font: {
+        size: 14px;
+        weight: 700;
+    }
+}
+
+.loading {
+    @include font;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30%;
+}

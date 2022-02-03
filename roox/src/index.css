@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*, *:before, *:after { box-sizing: border-box; }
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-size-adjust: none; }
+
+footer, header, nav, section, main { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+input { -webkit-appearance: none; border-radius: 0; }
+
+.filter { padding: 35px 20px 20px 20px; height: 30%; }
+.filter__title { font-family: Roboto; font-size: 12px; font-weight: 400; }
+.filter__button-container { display: flex; flex-direction: column; }
+
+button { border-radius: 5px; border: none; padding: 5px 15px; font-family: Roboto; font-size: 12px; font-weight: 400; color: white; width: fit-content; }
+button:hover { border: 1px solid black; margin-top: 9px; margin-bottom: -1px; }
+
+.filter__button { margin-top: 10px; background-color: #4B51EF; }
+
+.card { width: 100%; background-color: #F3F3F3; padding: 10px; margin-top: 15px; border-radius: 8px; font-family: Roboto; font-size: 12px; font-weight: 400; font-size: 14px; }
+.card__info-container { display: flex; flex-direction: row; align-items: flex-start; padding: 10px; margin-right: 0; }
+.card__info-container a { margin: 0 0 0 auto; }
+.card__info-name { color: #A3A3A3; }
+.card__info-result { margin-left: 10px; }
+.card a { float: right; }
+
+label { display: block; }
+
+input { border: 1px #D8D8D8 solid; border-radius: 5px; margin-top: 5px; font-size: 15px; padding: 3px; }
+input:read-only { color: rgba(0, 0, 0, 0.3); }
+input:focus { outline: none; }
+
+.main { height: 100%; width: 100%; display: grid; grid-template-columns: 1fr 7fr; grid-template-rows: 1fr; grid-column-gap: 0px; grid-row-gap: 0px; }
+.main__aside { min-height: 100vh; grid-area: 1 / 1 / 6 / 2; background-color: #BDBDBD; }
+.main__list { grid-area: 1 / 2 / 6 / 6; background-color: #FFFFFF; }
+.main__list-container { margin: 20px 65px 0 20px; }
+.main__cards-container { display: flex; flex-direction: column; flex-wrap: nowrap; }
+
+h1 { font-family: Roboto; font-size: 12px; font-weight: 400; font-size: 14px; font-weight: 700; }
+
+.loading { font-family: Roboto; font-size: 12px; font-weight: 400; font-size: 40px; display: flex; justify-content: center; align-content: center; margin-top: 30%; }
+
+.user { font-family: Roboto; font-size: 12px; font-weight: 400; }
+
+.user__header { display: flex; justify-content: space-between; flex-direction: row; width: 100%; padding: 15px 40px 0 40px; font-family: Roboto; font-size: 12px; font-weight: 400; font-size: 14px; font-weight: 700; }
+.user__header .user__header-name { line-height: 150%; }
+.user__header button { background-color: #4B51EF; }
+.user__header button:hover { border: 1px solid black; margin-top: -1px; margin-bottom: -1px; }
+
+.user__submit-btn-container { display: flex; justify-content: flex-end; padding: 15px 40px 0 40px; }
+.user__submit-btn-container button { background-color: #52CF4F; }
+.user__submit-btn-container button:hover { border: 1px solid black; margin-top: -1px; margin-bottom: -1px; }
+
+.user__data { margin: 15px 40px 0 40px; padding: 20px 15px; border: 1px solid #F3F3F3; }
+
+.user__data-container:nth-child(n + 2) { margin-top: 10px; }
+.user__data .required { border: 1px solid #D91313; }
+.user__data textarea { margin-top: 10px; resize: none; border: 1px solid #D8D8D8; border-radius: 5px; width: 100%; min-height: 80px; }
+.user__data textarea:focus { outline: none; }
+
+/*# sourceMappingURL=index.css.map */

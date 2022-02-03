@@ -1,0 +1,19 @@
+label {
+    display: block;
+}
+
+input {
+    border: 1px #D8D8D8 solid;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    padding: 3px;
+
+    &:read-only {
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
