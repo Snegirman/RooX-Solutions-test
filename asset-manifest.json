@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.84dffba4.css",
-    "main.js": "/static/js/main.b04b549d.js",
-    "index.html": "/index.html",
-    "main.84dffba4.css.map": "/static/css/main.84dffba4.css.map",
-    "main.b04b549d.js.map": "/static/js/main.b04b549d.js.map"
+    "main.css": "/RooX-Solutions-test/static/css/main.84dffba4.css",
+    "main.js": "/RooX-Solutions-test/static/js/main.b04b549d.js",
+    "index.html": "/RooX-Solutions-test/index.html",
+    "main.84dffba4.css.map": "/RooX-Solutions-test/static/css/main.84dffba4.css.map",
+    "main.b04b549d.js.map": "/RooX-Solutions-test/static/js/main.b04b549d.js.map"
   },
   "entrypoints": [
     "static/css/main.84dffba4.css",
